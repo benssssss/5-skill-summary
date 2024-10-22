@@ -1,0 +1,19 @@
+@media (max-width: 740px) {
+
+    .backgroundtotal {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        margin: 30px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-total {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .result-side-card, .summary-side-card {
+        height: 100%
+    }
+}

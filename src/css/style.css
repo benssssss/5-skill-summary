@@ -24,9 +24,11 @@ body {
 .card-total {
     min-height: 100vh;
     width: 768px;
+    margin: 0 15px;
 }
 
-main, .rate-section {
+main,
+.rate-section {
     justify-content: center;
 }
 
