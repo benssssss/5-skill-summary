@@ -7,7 +7,10 @@ main {
     color: #ffffff;
 }
 
-.result-side-card, body {
+/* -------------- Results ---------------- */
+
+.result-side-card,
+body {
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,45 +18,93 @@ main {
 .result-side-card {
     background-image: url(../images/background-laranja-roxo.png);
     border-radius: 20px;
-    position: absolute;
+    font-weight: 700;
 }
 
 .card-total {
-    background-color: violet;
     min-height: 100vh;
     width: 768px;
 }
 
-.rate-section, .card-total{
+main, .rate-section {
+    justify-content: center;
+}
+
+.summary-side-card,
+.result-side-card,
+.rate-section,
+.botao,
+.botao-continue {
+    width: 100%;
+}
+
+.rate-section,
+.card-total,
+.backgroundtotal,
+.texto-reaction,
+.texto-game-tatics,
+.texto-calls,
+.texto-pixel-opening,
+.reaction,
+.game-tatics,
+.calls,
+.pixel-opening,
+.botao,
+.reaction,
+.game-tatics,
+.calls,
+.pixel-opening,
+main {
     display: flex;
+}
+
+.texto-reaction,
+.texto-game-tatics,
+.texto-calls,
+.texto-pixel-opening,
+.reaction,
+.game-tatics,
+.calls,
+.pixel-opening,
+.rate-section,
+.card-total {
+    align-items: center;
+}
+
+.backgroundtotal,
+.rate-data,
+.summary-side-card {
+    background-color: #222243;
+}
+
+.backgroundtotal {
+    border-radius: 20px;
+}
+
+.result-side-card,
+.summary-side-card,
+.backgroundtotal {
+    height: 500px;
 }
 
 .result-side-card,
 .summary-side-card {
-    width: 365px;
-    height: 500px;
     padding: 35px;
-}
-
-.summary-side-card {
-    width: 385px;
 }
 
 .rate-section {
     height: 250px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .rate-data {
     height: 200px;
     width: 215px;
     border-radius: 50%;
-    background-color: #2b2b54;
 }
 
-.rate-data, .title-description, .your-result {
+.rate-data,
+.title-description,
+.your-result {
     text-align: center;
 }
 
@@ -63,18 +114,125 @@ main {
     margin-top: 20px;
 }
 
-.rate-data .rate-total, .title, .your-result {
+.rate-data .rate-total,
+.title,
+.your-result {
     font-size: 30px;
 }
 
 .description {
     font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
 }
 
-/* --------------------------- */
+/* ----------- Summary ---------------- */
 
 .summary-side-card {
-    background-color: #2b2b54;
-    width: 100%;
     border-radius: 20px;
+}
+
+.summary-side-card h2 {
+    font-size: 30px;
+}
+
+.summary-data {
+    margin: 35px 0px 0px 0px;
+}
+
+.summary-data li {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.valor-reaction,
+.valor-game-tatics,
+.valor-calls,
+.valor-pixel-opening {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.texto-pixel-opening {
+    gap: 10px;
+}
+
+.reaction,
+.game-tatics,
+.calls,
+.pixel-opening {
+    border-radius: 15px;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.reaction {
+    background-color: rgba(164, 14, 76, 0.6);
+}
+
+.game-tatics {
+    background-color: rgba(244, 157, 110, 0.6);
+}
+
+.calls {
+    background-color: rgba(172, 195, 166, 0.6);
+}
+
+.pixel-opening {
+    background-color: rgba(44, 44, 84, 1);
+}
+
+.botao {
+    height: 55px;
+}
+
+.botao-continue {
+    background-color: rgb(164, 14, 76);
+    font-family: Hanken Grotesk;
+    font-size: 25px;
+    border: none;
+    border-radius: 45px;
+    color: #ffffff;
+}
+
+/* ----------- Events ------------------ */
+
+.texto-reaction:before {
+    content: '';
+    background: url('../images/Reaction.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 30px;
+    display: block;
+}
+
+.texto-game-tatics:before {
+    content: '';
+    background: url('../images/Memory.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 25px;
+    display: block;
+}
+
+.texto-calls:before {
+    content: '';
+    background: url('../images/Verbal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 25px;
+    display: block;
+}
+
+.texto-pixel-opening:before {
+    content: '';
+    background: url('../images/Visual.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
+    display: block;
 }
