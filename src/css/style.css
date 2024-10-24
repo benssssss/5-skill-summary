@@ -7,8 +7,6 @@ main {
     color: #ffffff;
 }
 
-/* -------------- Results ---------------- */
-
 .result-side-card,
 body {
     background-repeat: no-repeat;
@@ -35,7 +33,6 @@ main,
 .summary-side-card,
 .result-side-card,
 .rate-section,
-.botao,
 .botao-continue {
     width: 100%;
 }
@@ -47,10 +44,6 @@ main,
 .texto-game-tatics,
 .texto-calls,
 .texto-pixel-opening,
-.reaction,
-.game-tatics,
-.calls,
-.pixel-opening,
 .botao,
 .reaction,
 .game-tatics,
@@ -128,8 +121,6 @@ main {
     font-weight: 400;
 }
 
-/* ----------- Summary ---------------- */
-
 .summary-side-card {
     border-radius: 20px;
 }
@@ -182,6 +173,7 @@ main {
 
 .pixel-opening {
     background-color: rgba(44, 44, 84, 1);
+    /* background-color: var(--secondary-color); */
 }
 
 .botao {
@@ -196,8 +188,6 @@ main {
     border-radius: 45px;
     color: #ffffff;
 }
-
-/* ----------- Events ------------------ */
 
 .texto-reaction:before {
     content: '';
