@@ -32,8 +32,6 @@
 ## Código
 ### Optei por começar no desktop primeiro (desktop first)
 
-### Html 
-
 1 - Definir duas "section" para os dois lados da carta (Results e Summary)
 
 #### Results
